@@ -1,0 +1,100 @@
+<!-- 
+	Jensly Francisco
+	24 April 2018
+	Dr. Mark Llewellyn
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title> The Lighthouse Bistro </title>
+		<link href="bistro.css" rel="stylesheet" media="screen"/>
+		<link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+		<script src="bistro.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id = wrapper>
+			<!-- page content goes here -->
+			<header>
+				<h1> The Lighthouse Bistro </h1>
+			</header>
+			
+			<nav>
+				<ul>	
+					<li><a href=index.html>Home</a> <br><br></li>
+					<li><a href=menu.html>Our Menu</a> <br><br></li>
+					<li><a href=entertainment.html>Entertainment Schedule</a> <br><br></li>
+					<li><a href=reservations.html>Reservations</a> <br><br></li>
+				</ul>
+				<div id=address>
+					The Lighthouse Bistro <br>
+					#27 Lighthouse Road <br>
+					Mackinac City, Michigan 49701 <br>
+					<span id = phone> 885-555-555 </span> 
+					<span class="call">
+                    <a href="tel:888-555-5555">888-555-5555</a>
+                	</span>
+				</div>
+			</nav>
+			
+			<main>
+				<h2>Reservations at The Lighthouse Bistro</h2>
+				
+				<h3>Contact Us Today To Make Your Dining Reservation!</h3>
+				
+				Required fields are marked with an asterisk * <br><br>
+				
+				<form action="http://cs.ucf.edu/~markl/bistroformreport.php" method="post">
+					<fieldset>
+						<label>*First Name:</label>
+						<input type="text" name ="FName" required="required" autofocus="autofocus">
+					
+					
+						<label>*Last Name:</label>
+						<input type="text" name ="LName" required="required">
+					
+					
+						<label>*Email:</label>
+						<input type="email" name="Email" size="30" required="required">
+					
+					
+						<label>Phone:</label>
+						<input type="tel" name="Phone">
+				
+					
+						<label>Date:</label>
+						<input type="date" name="Date">
+						
+					
+						<label>Time:</label>
+						<input type="time" name="Time">
+						
+					
+						<label>Number of Guests:</label>
+						<input type="number" name="NumOfGuests" min="1" max="14">  
+				
+				
+						<label>*Comments:</label>
+						<textarea name="Comments" id="textbox" class="form-control" rows="2" cols="32" required="required" onKeyUp="countChars('textbox','char_count',64)" maxlength = "64"></textarea>
+					
+						<!-- a div to create the limit message-->
+					 	<div id="char_count">Message limit 64 characters</div>
+					
+						<input type="submit" value="Submit">
+					</fieldset>
+				</form>
+				<br>
+			</main>
+			<br>
+					
+			<footer>
+				Copyright &copy; 2018 The Ligthouse Bistro <br>
+				<a href = "yourfirstname@yourlastname.com"> Jensly@Francisco.com</a> <br>
+				<script>writeDateAndTime();</script>
+			</footer>
+		</div>
+	</body>
+</html>
+		

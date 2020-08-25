@@ -1,0 +1,407 @@
+/*
+	Jensly Francisco
+	24 April 2018
+	Dr. Mark Llewellyn
+*/
+
+body {
+	background-color: #00BFFF;
+	color: #221811;
+	font-family: Verdana, Arial, "sans-serif";
+	background-image: url("images/ocean.jpg");
+	background-repeat: repeat-x;
+}
+
+nav {
+	display: table-cell;
+	text-align: left;
+	font-weight: bold;
+	width: 200px;
+}
+
+main {
+	display: table-cell;
+	padding-left: 20px;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+h3 {
+	color: #FFE4C4;
+	text-align: justify;
+}
+
+dt {
+	color: #FFE4C4;
+}
+
+dd {
+	color: #221811;
+}
+
+footer {
+	background-color: #191970;
+	color: #00008B;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+	background-image: url("images/lighthouselogo1.jpg");
+	background-repeat: repeat-x;
+	height: 52px;
+	margin-top: -2em;
+	border: 1px solid #FFE4C4;
+	border-radius: 6px;
+	clear: right;
+}
+
+footer a {
+	color: #00008B;
+}
+
+img {
+	padding-left: 20px;
+	padding-right: 10px;
+	float: right;
+}
+
+table img {
+	width:100px;
+	height:75px;
+}
+
+header {
+	text-align: left;
+}
+
+li {
+	color: #FFE4C4;
+}
+
+ul {
+	list-style-image: url('images/marker.gif');
+}
+
+nav ul li {
+	list-style: none;
+}
+
+#phone {
+	color: white;
+}
+
+/* Define identifier address */
+
+#address {
+	background-image: url("images/ocean.jpg");
+	border: 1px solid #FFE4C4;
+	border-radius: 2px;
+	box-sizing: border-box;
+	color: #00008B;
+	font-size: 92%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-family: Calibri;
+	padding: 0px 10px;
+}
+
+/* Define identifier wrapper */
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	min-width: 750px;
+	width: 80%;
+}
+
+#entertain {
+	background-color: #FFB38A;
+}
+
+#img {
+	float: left;
+}
+
+#entertain2 {
+	background-color: #FFB38A;
+}
+
+#img2 {
+	float: left;
+}
+
+/* Target strong elements inside <u> elements inside <p> elements */
+
+p {
+	text-align: justify;
+}
+
+/* Target u elements inside <p> elements */
+
+p u {
+	color: #A52A2A;
+}
+
+/* Target  strong inside of u in p*/
+
+p u strong {
+	color: #A52A2A;
+	font-family: Calibri;
+	font-size: 1.4em;
+}
+
+/* Target u elements inside <h4> elements */
+
+h4 u {
+	color: #A52A2A;
+}
+
+/*Target h1 elements appearing in header */
+/* header h1*/
+h1 {
+	background-image: url("images/lighthouselogo.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	border: 1px solid #FFE4C4;
+	height: 100px;
+	padding-left: 130px;
+	padding-top: 20px;
+	border-radius: 15px;
+	color: #00008B;
+	font-size: 40px;
+}
+
+h4 {
+	font-weight: normal;
+}
+
+/*Target a elements appearing in nav */
+
+nav a {
+	text-decoration: none;
+}
+
+/* Table*/
+caption {
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+table, th, td {
+	border: 1px solid #FFE4C4;
+	border-collapse: collapse;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/* odd */
+tbody tr:nth-of-type(odd) {
+	background-color: #A9A9A9;
+}
+
+ /* center text */
+ tr td:nth-of-type(1n) {
+ 	text-align: center;
+ }
+ 
+/* description */
+ tr td:nth-of-type(2) {
+ 	text-align: left;
+ }
+ 
+ /* heading */
+ tr th:nth-of-type(n) {
+ 	color: #FFE4C4;
+	background-color: #00008B;
+ }
+
+section.altext {
+	display: none;
+}
+
+span.call {
+	display: none;
+}
+
+/* Reservations Form */
+
+fieldset {
+	background-color: #CCC;
+	border: 2px solid #00008B;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	padding: 0.8em 1em;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 18px;
+}
+
+input[type="submit"] {
+	background-color: #00BFFF;
+	color: #00008B;
+	font-weight: bold;
+	padding: 5px;
+}
+
+label {
+	display: block;
+	color: #00008B;
+	float: left;
+	padding-right: 1em;
+	text-align: right;
+	width: 175px;
+}
+
+form div {
+	color: green; 
+	text-align:center; 
+	font-size:small;
+}
+
+
+/* Media Queries */
+
+/* Tablets */
+@media only screen and (max-width: 64em) { 
+	
+	h1 {
+		font-size: 2.25em;
+	}
+	
+	body {
+		margin: 0;
+	}
+	
+	#wrapper {
+		min-width: 0px;
+		width: auto;
+		box-shadow: none; 
+	}
+	
+	main { 
+		margin-left: 0;
+		display: block;
+	}
+	
+	nav {
+		display: inline;
+		width: auto;
+		text-align: center;
+		padding: 0.5em;
+	}
+	
+	nav ul li {
+		display: inline;
+		padding-top: 0.25em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+		padding-right:0.75em;
+	}
+	
+	/* For the main image element */
+	main img {
+		margin-bottom: 5px;
+	}
+	
+	#address {
+		background-image: none;
+		border: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	nav ul br {
+		display: none;
+	}
+	
+}
+
+/* Mobile Phone */
+@media only screen and (max-width: 37.5em) {
+	
+	header {
+		padding-top: 1em;
+	}
+	
+	main {
+		padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: 90%;
+	}
+	
+	h1 {
+		font-size: 1.5em;
+	}
+	
+	nav {
+		display: block;
+		margin-left: -40px;
+	}
+	
+	nav ul li {
+		display: block;
+		margin: 0;
+		border-bottom: 1px solid #FFE4C4;
+	}
+	
+	
+	label {
+		float: none;
+		text-align: left;
+		width: auto;
+	}
+/* use a pseudo-element selector to set a similar
+top border on the first <li> within the <nav> */
+
+	nav ul li:first-child {
+		border-top: 1px solid #FFE4C4;
+	}
+	
+	nav a {
+		display: block;
+	}
+	
+	main img {
+		background-image: none;
+		height: 0px;
+	}
+	
+	#address {
+		background-image: none;
+		border: 0;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	
+	#phone {
+		display: none;
+	}
+	
+	table {
+		display: none;
+	}
+	
+	section.altext {
+		display: inline;
+		margin-top: -40px;
+	}
+	
+	span.call {
+		display: inline;
+	}
+	
+	nav ul br {
+		display: none;
+	}
+	
+	main br {
+		display: none;
+	}
+	
+}
