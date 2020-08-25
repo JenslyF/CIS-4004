@@ -1,0 +1,136 @@
+/*
+	Jensly Francisco
+	25 Feb 2018
+	Dr. Mark Llewellyn
+*/
+
+body {
+	background-color: #00BFFF;
+	color: #221811;
+	font-family: Verdana, Arial, "sans-serif";
+	background-image: url("images/ocean.jpg");
+	background-repeat: repeat-x;
+}
+
+nav {
+	text-align: center;
+	font-weight: bold;
+	font-size: 135%
+}
+
+h1 {
+	color: #FFE4C4;
+	line-height: 200%;
+}
+
+h3 {
+	color: #FFE4C4;
+}
+
+dt {
+	color: #FFE4C4;
+}
+
+dd {
+	color: #221811;
+}
+
+footer {
+	background-color: #191970;
+	color: #00008B;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+	background-image: url("images/lighthouselogo1.jpg");
+	background-repeat: repeat-x;
+	height: 35px;
+	margin-top: -2em;
+	border: 1px solid #FFE4C4;
+	border-radius: 6px;
+}
+
+footer a {
+	color: #00008B;
+}
+
+img {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+header {
+	text-align: left;
+}
+
+li {
+	color: #FFE4C4;
+}
+
+ul {
+	list-style-image: url('images/marker.gif');
+}
+
+/* Define identifier address */
+
+#address {
+	color: #00008B;
+	font-size: 92%;
+	font-family: Calibri;
+}
+
+/* Define identifier wrapper */
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	min-width: 750px;
+	width: 80%;
+}
+
+/* Target strong elements inside <u> elements inside <p> elements */
+
+p {
+	text-align: justify;
+}
+
+/* Target u elements inside <p> elements */
+
+p u {
+	color: #A52A2A;
+}
+
+/* Target  strong inside of u in p*/
+
+p u strong {
+	color: #A52A2A;
+	font-family: Calibri;
+	font-size: 1.4em;
+}
+
+/* Target u elements inside <h4> elements */
+
+h4 u {
+	color: #A52A2A;
+}
+
+/*Target h1 elements appearing in header */
+
+header h1 {
+	background-image: url("images/lighthouselogo.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	border: 1px solid #FFE4C4;
+	height: 110px;
+	padding-left: 130px;
+	padding-top: 30px;
+	border-radius: 15px;
+	color: #00008B;
+	font-size: 40px;
+}
+
+/*Target a elements appearing in nav */
+
+nav a {
+	text-decoration: none;
+}

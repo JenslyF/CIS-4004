@@ -1,0 +1,185 @@
+/*
+	Jensly Francisco
+	11 March 2018
+	Dr. Mark Llewellyn
+*/
+
+body {
+	background-color: #00BFFF;
+	color: #221811;
+	font-family: Verdana, Arial, "sans-serif";
+	background-image: url("images/ocean.jpg");
+	background-repeat: repeat-x;
+}
+
+nav {
+	display: table-cell;
+	text-align: left;
+	font-weight: bold;
+	width: 200px;
+}
+
+main {
+	display: table-cell;
+	padding-left: 20px;
+}
+
+h1 {
+	color: #FFE4C4;
+	line-height: 200%;
+}
+
+h3 {
+	color: #FFE4C4;
+	text-align: justify;
+}
+
+dt {
+	color: #FFE4C4;
+}
+
+dd {
+	color: #221811;
+}
+
+footer {
+	background-color: #191970;
+	color: #00008B;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+	background-image: url("images/lighthouselogo1.jpg");
+	background-repeat: repeat-x;
+	height: 35px;
+	margin-top: -2em;
+	border: 1px solid #FFE4C4;
+	border-radius: 6px;
+}
+
+footer a {
+	color: #00008B;
+}
+
+img {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+table img {
+	width:100px;
+	height:75px;
+}
+
+header {
+	text-align: left;
+}
+
+li {
+	color: #FFE4C4;
+}
+
+ul {
+	list-style-image: url('images/marker.gif');
+}
+
+/* Define identifier address */
+
+#address {
+	background-image: url("images/ocean.jpg");
+	border: 1px solid #FFE4C4;
+	border-radius: 2px;
+	box-sizing: border-box;
+	color: #00008B;
+	font-size: 92%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-family: Calibri;
+	padding-left: 10px;
+}
+
+/* Define identifier wrapper */
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	min-width: 750px;
+	width: 80%;
+}
+
+/* Target strong elements inside <u> elements inside <p> elements */
+
+p {
+	text-align: justify;
+}
+
+/* Target u elements inside <p> elements */
+
+p u {
+	color: #A52A2A;
+}
+
+/* Target  strong inside of u in p*/
+
+p u strong {
+	color: #A52A2A;
+	font-family: Calibri;
+	font-size: 1.4em;
+}
+
+/* Target u elements inside <h4> elements */
+
+h4 u {
+	color: #A52A2A;
+}
+
+/*Target h1 elements appearing in header */
+
+header h1 {
+	background-image: url("images/lighthouselogo.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	border: 1px solid #FFE4C4;
+	height: 100px;
+	padding-left: 130px;
+	padding-top: 20px;
+	border-radius: 15px;
+	color: #00008B;
+	font-size: 40px;
+}
+
+/*Target a elements appearing in nav */
+
+nav a {
+	text-decoration: none;
+}
+
+/* Table*/
+caption {
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+table, th, td {
+	border: 1px solid #FFE4C4;
+	border-collapse: collapse;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.heading {
+	color: #FFE4C4;
+	background-color: #00008B;
+}
+
+.odd {
+	background-color: #A9A9A9;
+}
+
+.description {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
